@@ -4,17 +4,17 @@
 本项目基于 Transformer 模型实现了沪深300指数的股价时序预测，完整覆盖数据清洗、特征工程、模型训练、结果可视化全流程。
 
 ## 项目结构
+```text
 stock-transformer-forecast/
-├── data/ # 原始数据与清洗后数据
-├── model/ # 训练好的 Transformer 模型文件
-├── result/ # 预测结果可视化图表
-├── src/ # 核心代码
-│ ├── data_process.py # 数据预处理脚本
-│ ├── full_pipeline.py # 完整训练与预测流程
-│ ├── predict_and_plot.py # 预测与结果可视化
-│ └── requirements.txt # 依赖库清单
-└── README.md # 项目说明文档
-plaintext
+├── data/                    # 原始数据与清洗后数据
+├── model/                   # 训练好的Transformer模型文件
+├── result/                  # 预测结果可视化图表
+├── src/                     # 核心代码
+│   ├── data_process.py      # 数据预处理脚本
+│   ├── full_pipeline.py     # 完整训练与预测流程
+│   ├── predict_and_plot.py  # 预测与结果可视化
+│   └── requirements.txt     # 依赖库清单
+└── README.md                # 项目说明文档
 
 ## 环境配置
 ```bash
