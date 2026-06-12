@@ -15,23 +15,23 @@ stock-transformer-forecast/
 │   ├── predict_and_plot.py  # 预测与结果可视化
 │   └── requirements.txt     # 依赖库清单
 └── README.md                # 项目说明文档
-环境配置
-bash
-运行
+```
+## 环境配置
+```bash
 pip install -r src/requirements.txt
-运行步骤
-数据预处理
-bash
-运行
+```
+## 数据预处理
+```bash
 python src/data_process.py
-模型训练与预测
-bash
-运行
+```
+## 模型训练与预测
+```bash
 python src/full_pipeline.py
-结果可视化
-bash
-运行
+```
+## 结果可视化
+```bash
 python src/predict_and_plot.py
+```
 核心技术
 模型架构：基于 PyTorch 实现的 Transformer 时序预测模型
 数据处理：时间序列标准化、特征构造与滑动窗口处理
